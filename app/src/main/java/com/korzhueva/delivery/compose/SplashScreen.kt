@@ -24,7 +24,7 @@ import kotlinx.coroutines.delay
 fun SplashScreen(navController: NavController) {
     LaunchedEffect(key1 = true) {
         delay(3000L)
-        navController.navigate(NavigationRoute.Onboarding.tag)
+        navController.navigate(NavigationRoute.Onboarding_1.tag)
     }
     Column(horizontalAlignment = Alignment.CenterHorizontally) {
         Box {
